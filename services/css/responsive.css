@@ -1,0 +1,87 @@
+/* ===== Tablet Devices (max-width: 768px) ===== */
+@media (max-width: 768px) {
+  .services {
+    padding: 40px 15px;
+    border-radius: 0 0 60px 60px;
+  }
+
+  .services-header h2 {
+    font-size: 2rem;
+  }
+
+  .services-header p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .all-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .services-cards {
+    width: 100%;
+    text-align: center;
+  }
+
+  .card-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .menu-btn {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+/* ===== Mobile Devices (max-width: 480px) ===== */
+@media (max-width: 480px) {
+  .services {
+    padding: 30px 10px;
+    border-radius: 0 0 40px 40px;
+  }
+
+  .services-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .services-header p {
+    font-size: 0.9rem;
+  }
+
+  .card-item b {
+    font-size: 1.1rem;
+  }
+
+  .card-item p {
+    font-size: 0.85rem;
+    padding: 0 10px;
+  }
+
+  .cta-button {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+  }
+
+  .paraa h1 {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .paraa .cta-button {
+    display: inline-block;
+    margin-top: 15px;
+  }
+}

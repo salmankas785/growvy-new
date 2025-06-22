@@ -1,0 +1,130 @@
+/* ===== Tablet Devices (max-width: 768px) ===== */
+@media (max-width: 768px) {
+  .jobs {
+    padding: 40px 15px;
+    border-radius: 0 0 60px 60px;
+  }
+
+  .jobs-header h2 {
+    font-size: 2rem;
+  }
+
+  .jobs-header p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .all-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .jobs-cards {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .menu-btn {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+/* ===== Mobile Devices (max-width: 480px) ===== */
+@media (max-width: 480px) {
+  .jobs {
+    padding: 30px 10px;
+    border-radius: 0 0 40px 40px;
+  }
+
+  .jobs-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .jobs-header p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .all-cards {
+    grid-template-columns: repeat(2, 1fr); /* 2 per row on tablet */
+  }
+}
+
+@media (max-width: 480px) {
+  .all-cards {
+    grid-template-columns: 1fr; /* 1 per row on mobile */
+  }
+
+  .jobs-cards {
+    width: 100%;
+  }
+}
+/* Mobile Media Query */
+@media only screen and (max-width: 768px) {
+  .jobs {
+    padding: 40px 15px;
+    border-radius: 0 0 50px 50px;
+  }
+  
+  .jobs-header h2 {
+    font-size: 2rem;
+  }
+  
+  .all-cards {
+    grid-template-columns: repeat(1, 1fr); /* 1 item per row on mobile */
+    gap: 15px;
+    max-width: 400px;
+  }
+  
+  .card {
+    padding: 30px 15px;
+  }
+  
+  .jobs-cards {
+    padding: 15px;
+  }
+  
+  .job {
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  .ttl_jobs h1 {
+    font-size: 2rem;
+  }
+  
+  .box1 {
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 25px;
+    padding: 15px;
+  }
+  
+  .job_name b {
+    font-size: 14px;
+  }
+  
+  .btn .cta-button {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}
+
+/* Laptop/Desktop Media Query */
+@media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 1200px) {
+    .box1 {
+      gap: 20rem;
+    }
+  }
+}

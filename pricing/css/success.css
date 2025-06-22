@@ -1,0 +1,38 @@
+/* Color style */
+:root {
+  --p--bg: #e2f0dd;
+  --p--brdr: #333;
+  --p--bcg: #fff;
+  --p-btn-bg: #00aa00;
+  --primary-blue: #2a5bda;
+  --dark-text: #333333;
+  --p--txt: black;
+  --p--hover: #555;
+  --p--btn: #00aa00;
+    --main-green: #8db11c;
+  --light-green: #c8da57;
+  --card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --text-dark: #000;
+  --text-light: #666;
+  --white: #fff;
+  --border-radius: 16px;
+}
+/* Jobs Section */
+.price {
+  background-color: var(--p--bg);
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 0 0 100px 100px;
+}
+.price-header h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.price-header p {
+  font-size: 16px;
+  /* max-width: 600px; */
+  margin: 0 auto 40px;
+}

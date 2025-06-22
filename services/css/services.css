@@ -1,0 +1,122 @@
+/* Color style */
+:root {
+  --p--bg: #e2f0dd;
+  --p--brdr: #333;
+  --p--bcg: #fff;
+  --p-btn-bg: #00aa00;
+  --primary-blue: #2a5bda;
+  --dark-text: #333333;
+  --white: #ffffff;
+  --p--txt: black;
+  --p--hover: #555;
+  --p--btn: #00aa00;
+}
+/* Services Section */
+.services {
+  background-color: var(--p--bg);
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 0 0 100px 100px;
+}
+.services-header h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.services-header p {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+/* Services Card Styles */
+.card {
+  padding: 80px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.all-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: center;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.services-cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-cards .card-item {
+  position: relative;
+  max-width: 1320px;
+  padding: 40px 20px 20px 20px;
+  border-radius: 12px;
+  border: 2px solid var(--p--brdr);
+  background-color: var(--p--bcg);
+  text-align: center;
+}
+
+.services-cards .card-item .img {
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--p--bcg);
+  padding: 5px;
+  border-radius: 12px;
+}
+
+.services-cards .card-item .img img {
+  width: 100px;
+  height: 100px;
+}
+
+.services-cards .card-item b {
+  font-size: 2rem;
+  color: #333;
+  margin: 30px 0 20px;
+}
+.services-cards .card-item p {
+  font-weight: 100;
+  color: var(--p--brdr);
+  margin: 30px 0 20px;
+}
+
+.services-cards .card-item .cta-button {
+  display: inline-block;
+  padding: 12px 40px;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100px;
+  text-decoration: none;
+  color: var(--p--bcg);
+  background-color: var(--p-btn-bg);
+  border-radius: 100px;
+  transition: background 0.3s ease;
+}
+
+.services-cards .card-item .cta-button:hover {
+  background-color: var(--p-btn-bg);
+}
+
+/* paraaa section */
+.paraa {
+  margin-top: 40px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.paraa h1 {
+     font-size: 3rem;
+     color: var(--dark-text);
+}
